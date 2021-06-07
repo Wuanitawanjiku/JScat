@@ -1,0 +1,25 @@
+/*Question 3
+In your own words, explain how the script for moving the carousel works.
+Answer:
+The carousel is basically used to aid in the transition of content dispalyed in a website/page/application.
+It contains a series of content, that is images, videos, or texts dispaled in the form of a slideshow and can also
+include indicators for the previous and next pages.
+It is mostly created using CSS and a bit of JavaScript. It normally doesn't transition form one content to the next 
+when the webpage is inactive. One uses JavaScript to give it a transition {setTimeout} of however long they'd like
+the content to be dispalyed.
+
+
+/*Question 4
+What will the code below output to the console and why?
+The code will have four outputs;
+     The first outer function will output Lovelace, this is because in JavaScript, 'this' is not a variable,
+     it is a special keyword.
+     The second output from the outer function will also be Lovelace, this is because closure is used here, and
+     in JavaScript, closures have access to the variables of the enclosing function through the scope.
+     The third output will be an empty string because there is no variable for the 'this' keyword to access any 
+     properties from.
+     The final output will be Lovelace because there is lexical scoping, where the  the inner function has 
+     access to the variables of the parent scope
+*/
+
+
